@@ -38,7 +38,7 @@ const PRODUCTS = array(
 require_once "includes/db.php";
 
 // open database
-$db = open_sqlite_db("secure/site.sqlite");
+$db = init_sqlite_db("db/site.sqlite", "db/init.sql");
 ?>
 <!DOCTYPE html>
 <html lang="en">
